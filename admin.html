@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel - Pizza Delivery</title>
+    <link rel="stylesheet" href="SS.CSS">
+</head>
+<body>
+    <!-- Admin Header Section -->
+    <header>
+        <div class="container">
+            <h1>Admin Panel</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="admin.html">Admin Panel</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Admin Dashboard -->
+    <main>
+        <section class="admin-dashboard">
+            <div class="container">
+                <h2>Welcome, Admin!</h2>
+                <div class="admin-actions">
+                    <!-- Manage Orders -->
+                    <div class="action">
+                        <h3>Manage Orders</h3>
+                        <button onclick="viewOrders()">View Orders</button>
+                        <div id="order-list"></div>
+                    </div>
+
+                    <!-- Manage Menu -->
+                    <div class="action">
+                        <h3>Manage Menu</h3>
+                        <button onclick="editMenu()">Edit Menu</button>
+                        <div id="menu-management"></div>
+                    </div>
+
+                    <!-- View Feedback -->
+                    <div class="action">
+                        <h3>View Feedback</h3>
+                        <button onclick="viewFeedback()">View Feedback</button>
+                        <div id="feedback-list"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Pizza Delivery Admin Panel. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>

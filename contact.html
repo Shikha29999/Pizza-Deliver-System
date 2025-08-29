@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <!-- Contact Section -->
+      <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feedback, or just want to say hi, feel free to reach out to us. We’d love to hear from you!</p>
+
+            <!-- Contact Information -->
+            <div class="contact-info">
+                <div class="info-box">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p><strong>Address:</strong> 123 Pizza Street, Food City</p>
+                </div>
+                <div class="info-box">
+                    <i class="fas fa-phone-alt"></i>
+                    <p><strong>Phone:</strong> <a href="tel:+1234567890">(123) 456-7890</a></p>
+                </div>
+                <div class="info-box">
+                    <i class="fas fa-envelope"></i>
+                    <p><strong>Email:</strong> <a href="mailto:info@pizzadelivery.com">info@pizzadelivery.com</a></p>
+                </div>
+            </div>
+
+            <!-- Map Integration -->
+            <div class="map">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.02112340689!2d144.95829231531633!3d-37.81656797975137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218cee20!2s123%20Pizza%20St%2C%20Food%20City!5e0!3m2!1sen!2sus!4v1691809324794!5m2!1sen!2sus" 
+                    width="100%" 
+                    height="300" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+
+            <!-- Contact Form -->
+            <form id="contactForm" class="contact-form">
+                <h3>Send Us a Message</h3>
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="text" name="phone" placeholder="Your Phone Number (Optional)">
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Pizza Delivery. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
